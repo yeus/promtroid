@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "promptdroid"
+name = "promtroid"
 version = "0.1.0"
 description = ""
 authors = ["yeus <Thomas.Meschede@web.de>"]
@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 transformers = "^4.27.4"
-
+torch = { url = "https://download.pytorch.org/whl/cpu/torch-2.0.0%2Bcpu-cp310-cp310-linux_x86_64.whl" }
 
 [build-system]
 requires = ["poetry-core"]
